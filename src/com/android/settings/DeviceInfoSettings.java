@@ -72,6 +72,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
     private static final String MBN_VERSION_PATH = "/persist/speccfg/mbnversion";
     private static final String QGP_VERSION_PATH = "/persist/speccfg/devicetype";
+    private static final String KEY_SHIZNITS_VERSION = "shiznits_version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -136,6 +137,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         if(TextUtils.isEmpty(mMbnVersion)){
             getPreferenceScreen().removePreference(findPreference(KEY_MBN_VERSION));
         }
+
+        setValueSummary(KEY_SHIZNITS_VERSION, "ro.shiznits.version");
+        findPreference(KEY_SHIZNITS_VERSION).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
