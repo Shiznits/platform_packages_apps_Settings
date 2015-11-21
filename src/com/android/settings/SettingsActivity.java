@@ -138,6 +138,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
+import com.android.settings.nexus.DisplayRotation;
 import com.pure.settings.PureSettings;
 
 import java.net.URISyntaxException;
@@ -396,6 +397,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             PureSettings.class.getName(),
+            DisplayRotation.class.getName(),
             ButtonsSettings.class.getName()
     };
 
