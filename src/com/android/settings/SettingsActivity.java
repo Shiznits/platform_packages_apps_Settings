@@ -138,6 +138,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
+import com.pure.settings.PureSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -261,6 +262,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.SimSettingsActivity.class.getName(),
             Settings.Lte4GEnableActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
+            //custom_section
+            PureSettings.class.getName(),
             //device_section
             Settings.ButtonsSettingsActivity.class.getName(),
             Settings.HomeSettingsActivity.class.getName(),
@@ -386,6 +389,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
+            PureSettings.class.getName(),
             ButtonsSettings.class.getName()
     };
 
