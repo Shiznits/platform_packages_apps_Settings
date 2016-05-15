@@ -14,6 +14,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Development Settings -->
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
 <!-- Device Info Settings -->
     <!-- Pure version -->
     <string name="shiznits_version">Shiznits version</string>
