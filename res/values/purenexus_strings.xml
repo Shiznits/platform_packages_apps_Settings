@@ -19,6 +19,8 @@
     <string name="header_category_custom">ROM Control</string>
     <string name="pure_settings_title">PureNexus Settings</string>
     <string name="pure_settings_summary">ROM features &amp; customization</string>
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Customize device theme</string>
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">Manage root permissions</string>
 
