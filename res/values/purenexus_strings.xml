@@ -18,4 +18,7 @@
     <!-- Pure version -->
     <string name="shiznits_version">Shiznits version</string>
     <string name="shiznits_version_default">Unknown</string>
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
 </resources>
