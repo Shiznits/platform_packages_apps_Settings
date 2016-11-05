@@ -140,6 +140,7 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 import com.android.settings.nexus.DisplayRotation;
 import com.pure.settings.PureSettings;
+import com.pure.settings.fragments.HeadsUpSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -398,6 +399,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             AutomaticStorageManagerSettings.class.getName(),
             PureSettings.class.getName(),
             DisplayRotation.class.getName(),
+            HeadsUpSettings.class.getName(),
             ButtonsSettings.class.getName()
     };
 
