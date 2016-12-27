@@ -36,4 +36,13 @@
         android:shortcutShortLabel="@string/power_usage_summary_title" >
         <intent android:action="android.intent.action.POWER_USAGE_SUMMARY" />
     </shortcut>
+    <shortcut
+        android:shortcutId="manifest-shortcut-pure-settings"
+        android:icon="@drawable/ic_shortcut_purenexus"
+        android:shortcutShortLabel="@string/pure_settings_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.Settings$PureNexusSettingsActivity" />
+    </shortcut>
 </shortcuts>
