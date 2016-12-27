@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 The Pure Nexus Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="52.0"
+    android:viewportHeight="52.0" >
+
+    <!-- Background-->
+    <path
+        android:fillColor="#FFF5F5F5"
+        android:pathData="M2,26a24,24 0 1,0 48,0a24,24 0 1,0 -48,0"/>
+
+    <!-- The X-->
+    <path
+        android:pathData="m33.5,16.87c-0.02,0.04 -0.04,0.09 -0.07,0.13 -1.65,2.29 -3.29,4.59 -4.94,6.88 -0.36,0.5 -0.71,1 -1.08,1.5 -0.07,0.09 -0.06,0.15 0,0.24 1.29,1.84 2.58,3.67 3.88,5.51 0.7,1 1.41,2 2.11,3.01 0.02,0.02 0.03,0.05 0.05,0.08 -0.13,0.06 -0.19,0 -0.27,-0.08 -1.48,-1.74 -2.97,-3.48 -4.45,-5.22 -0.69,-0.81 -1.38,-1.62 -2.1,-2.45 -2.2,2.53 -4.39,5.05 -6.59,7.57 -0.02,-0.01 -0.03,-0.01 -0.05,-0.02 0.02,-0.08 0.03,-0.17 0.08,-0.23 0.99,-1.43 1.98,-2.85 2.97,-4.27 0.82,-1.18 1.65,-2.37 2.48,-3.54 0.08,-0.11 0.06,-0.17 -0.02,-0.26C23.4,23.36 21.31,21 19.21,18.65 19,18.42 18.79,18.18 18.58,17.95 18.54,17.9 18.52,17.85 18.49,17.79 18.5,17.79 18.51,17.78 18.52,17.77c2.7,2.3 5.4,4.59 8.11,6.9 2.28,-2.61 4.55,-5.22 6.83,-7.82 0.01,0.01 0.03,0.01 0.04,0.02z"
+        android:strokeWidth="2.5"
+        android:fillColor="@*android:color/accent_device_default_light"
+        android:strokeMiterLimit="10"
+        android:strokeColor="@*android:color/accent_device_default_light" />
+
+    <!--Red Flag-->
+    <path
+        android:pathData="m27.23,14.7c0.02,0.35 0.04,0.68 0.05,1.01 0.05,1.06 0.09,2.12 0.14,3.18 0.06,1.29 0.12,2.57 0.19,3.86 0.01,0.2 0.02,0.4 0.02,0.6 0,0.04 -0.01,0.09 -0.04,0.12 -0.31,0.36 -0.63,0.73 -0.96,1.1C24.11,22.43 21.59,20.29 19.06,18.13 21.78,16.99 24.49,15.85 27.23,14.7Z"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeMiterLimit="10"
+        android:strokeColor="@*android:color/accent_device_default_light" />
+
+    <!--Blue Flag-->
+    <path
+        android:pathData="m27.35,15.97c1.7,0.65 3.38,1.3 5.08,1.95C30.86,19.72 29.3,21.51 27.73,23.3 27.72,23.3 27.71,23.3 27.69,23.29 27.58,20.86 27.47,18.43 27.35,15.97Z"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeMiterLimit="10"
+        android:strokeColor="@*android:color/accent_device_default_light" />
+
+    <!--Green Flag-->
+    <path
+        android:pathData="M29.24,35.12C26.36,34.57 23.5,34.03 20.61,33.49c2.02,-2.32 4.01,-4.61 6.02,-6.92 0.12,0.13 0.23,0.25 0.34,0.37 0.36,0.43 0.72,0.85 1.08,1.28 0.05,0.06 0.08,0.14 0.1,0.22 0.19,1.1 0.37,2.21 0.55,3.31 0.18,1.08 0.36,2.17 0.54,3.25 0,0.03 0.01,0.06 0.01,0.12z"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeMiterLimit="10"
+        android:strokeColor="@*android:color/accent_device_default_light" />
+
+    <!--Orange Flag-->
+    <path
+        android:pathData="m33.13,34.17c-2.74,1.04 -5.45,2.07 -8.2,3.12 0.06,-0.98 0.11,-1.92 0.17,-2.87 0.24,0.04 0.46,0.08 0.68,0.12 0.32,0.06 0.64,0.12 0.96,0.18 0.34,0.07 0.68,0.14 1.03,0.2 0.46,0.09 0.91,0.17 1.38,0.25 0.16,0.03 0.19,-0.02 0.17,-0.18 -0.1,-0.61 -0.2,-1.22 -0.31,-1.83 -0.07,-0.44 -0.16,-0.89 -0.23,-1.33 -0.09,-0.54 -0.17,-1.07 -0.26,-1.61 -0.06,-0.39 -0.14,-0.78 -0.2,-1.17 -0.03,-0.19 -0.06,-0.37 -0.05,-0.57 1.62,1.89 3.23,3.79 4.87,5.7z"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeMiterLimit="10"
+        android:strokeColor="@*android:color/accent_device_default_light" />
+</vector>
