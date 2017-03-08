@@ -55,8 +55,8 @@
     <string name="expanded_desktop_title">Expanded desktop options</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
-    <string name="night_brightness_value_title">Night Light brightness</string>
-    <string name="night_brightness_text">When Night Light is enabled automatically set the desired brightness. The default brightness is set to low brightness</string>
+    <string name="night_brightness_value_title">Night light brightness</string>
+    <string name="night_brightness_text">When night light is enabled automatically set the desired brightness. The default brightness is set to low brightness</string>
     <string name="night_bright_disabled">Disabled</string>
     <string name="night_bright_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
@@ -87,7 +87,7 @@
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp up time</string>
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volume</string>
     <string name="notification_volume_option_title">Notification volume</string>
